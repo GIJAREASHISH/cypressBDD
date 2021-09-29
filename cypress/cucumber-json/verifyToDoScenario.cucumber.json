@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Verify To Do Scenario",
+    "line": 1,
+    "id": "verify-to-do-scenario",
+    "tags": [],
+    "uri": "verifyToDoScenario.feature",
+    "elements": [
+      {
+        "id": "verify-to-do-scenario;with-an-and-everything-is-fine",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "With an And everything is fine",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Open web page",
+            "result": {
+              "status": "passed",
+              "duration": 9441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Enter Values to Placeholder",
+            "result": {
+              "status": "passed",
+              "duration": 1811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Mark task complete",
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on Complete Filter link",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Result should be match with completed task in Complete Filter",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

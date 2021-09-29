@@ -1,0 +1,8 @@
+{
+    
+        "testFiles": "**/*.feature",
+        "env": {
+            "url": "https://todomvc.com/examples/react"
+          }
+      
+}
